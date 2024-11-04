@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="login.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/Martin-Berube-People-Princess.256.png" type="image/x-icon">
+  <title>L O G I N</title>
+</head>
+<body>
+
+
+
+
+      <div class="background">
+          <div class="caixa">
+           
+                
+                
+                <form class="form-principal">
+                  <div class="form-control">
+                    <input type="text" required="" id="login">
+                    <label>
+                        <span style="transition-delay:0ms">L</span><span style="transition-delay:50ms">O</span><span style="transition-delay:100ms">G</span><span style="transition-delay:150ms">I</span><span style="transition-delay:200ms">N</span><span style="transition-delay:250ms"></span><span style="transition-delay:300ms"></span><span style="transition-delay:350ms"></span>
+                    </label>
+                </div>
+                    
+                    <div class="form-control">
+                      <input type="password" required=""  id="senha">
+                    <label>
+                        <span style="transition-delay:0ms">P</span><span style="transition-delay:50ms">A</span><span style="transition-delay:100ms">S</span><span style="transition-delay:150ms">S</span><span style="transition-delay:200ms">W</span><span style="transition-delay:250ms">O</span><span style="transition-delay:300ms">R</span><span style="transition-delay:350ms">D</span>
+                    </label>
+                    </div>
+
+                    <a href="#" onclick="logar();return false">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      Entrar
+                    </a>
+                    
+                    
+                  </form>
+          </div>
+      </div>
+      <script>
+
+        function logar() {
+    
+            var login = document.getElementById('login').value;
+    
+            var senha = document.getElementById('senha').value;
+    
+            if(login == "31 de julho" && senha =="19:16"){
+                alert('Acesso Liberado');
+                location.href = "index.html"
+            }
+            else{
+                
+                alert('Login ou senha incorretos');
+            }
+        }
+    
+    </script>
+
+</body>
+</html>

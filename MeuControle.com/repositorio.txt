@@ -1,0 +1,27 @@
+
+        <h1></h1>
+    <!--Login do site!-->
+    <form action="home.html" method="method"><br>
+
+    <fieldset>  <!-- linha que faz a borada envolta do login-->
+        <legend> Informações Pessoais</legend> <!--Informação no inicio da borda-->
+
+        <!--Dados do Login-->
+        Login: <br>
+        <input type="text" name="nome" required autofocus> <br> <!-- required = campo obrigatório e "autofocus = faz com que ja inicie com o cursor la"-->
+        Senha: <br>
+        <input type="password" name="Senha" required><br><br> <!-- Type="password" faz com que os caracteres não apareçam-->
+
+        <!-- botão de enviar-->
+        <input type="submit" name="btn-enviar">
+
+        <!-- link que direciona para o cadastro -->
+        <h6>Não tenho cadastro.<a  href="page1.html" target="_self">Clique aqui! </a> </h6>
+
+    </fieldset> <!-- Finaliza a borda envolta do login-->
+
+    
+    </form>
+    
+</body>
+</html>
